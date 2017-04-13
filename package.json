@@ -1,0 +1,34 @@
+{
+  "name": "speech-recognition",
+  "version": "1.0.0",
+  "description": "vent-machine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js -e js,html,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucymonie/speech-recognition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucymonie/speech-recognition/issues"
+  },
+  "homepage": "https://github.com/lucymonie/speech-recognition#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "env2": "^2.1.1",
+    "handlebars": "^4.0.6",
+    "hapi": "^15.2.0",
+    "hapi-auth-cookie": "^6.1.1",
+    "hapi-context-credentials": "^2.0.0",
+    "inert": "^4.0.3",
+    "nodemon": "^1.11.0",
+    "pg": "^6.1.0",
+    "request": "^2.81.0",
+    "vision": "^4.1.1"
+  }
+}
