@@ -4,9 +4,8 @@ html {
 
 h2 {
   color:white;
-  margin-left:50px;
   font-size: 30px;
-  padding: 1rem 0 0 2rem;
+  padding-top: 1rem;
 }
 
 body {
@@ -21,17 +20,9 @@ body {
   margin:50px auto;
   background:white;
   border-radius:5px;
-  /*box-shadow:10px 10px 0 rgba(0,0,0,0.1);*/
   padding:1rem 2rem 1rem 2rem;
-  /*background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;*/
   background-size: 100% 3rem;
   position: relative;
-  /*line-height:3rem;*/
-}
-
-p {
-  color: #361D2E;
-  /*margin: 0 0 3rem 0;*/
 }
 
 .words:before {
@@ -41,6 +32,5 @@ p {
   top: 0;
   left: 30px;
   bottom: 0;
-  /*border: 1px solid;*/
   border-color: transparent #efe4e4;
 }
