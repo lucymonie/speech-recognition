@@ -32,7 +32,7 @@ const music = {
       } else {
         let result = JSON.parse(body);
         let song = result.items[0].id.videoId;
-        let songLink = `http://www.youtube.com/embed/${song}?enablejsapi=1&autoplay=1`
+        let songLink = `https://www.youtube.com/embed/${song}?enablejsapi=1&autoplay=1`
         reply.view('player', { songLink: songLink });
       }
     });
