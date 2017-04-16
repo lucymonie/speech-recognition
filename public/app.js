@@ -26,6 +26,15 @@ recognition.addEventListener('result', e => {
         words.removeChild(paragraphs[i]);
       }
     }
+
+    if (transcript.includes('play')) {
+      if (e.results[0].isFinal) {
+        let music = transcript.split(' ')
+          .filter(word => { return word !== 'play'; })
+          .join(' ');
+        window.location.href = `/player?songId=${music}`;
+      }
+    }
 });
 
 recognition.addEventListener('end', recognition.start);
